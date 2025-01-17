@@ -21,7 +21,6 @@ export const skills = [
     items: [
       { name: 'HTML', image: 'assets/html.png' },
       { name: 'CSS', image: 'assets/css.png' },
-      { name: 'JavaScript', image: 'assets/javascript.png' },
       { name: 'Bootstrap', image: 'assets/bootstrap.png' },
       { name: 'Tailwind CSS', image: 'assets/tailwindcss.png' },
       { name: 'React JS', image: 'assets/react.png' },
@@ -84,6 +83,12 @@ export const projects = [
     description:
       'A web application for those who are looking for their dream home.',
     link: 'https://github.com/Armstrong104/Home-Fair-DotNet-Project',
+  },
+  {
+    title: 'Vanilla JS Projects',
+    description:
+      'This is an open source project where I have contributed to build some vanilla JS projects.',
+    link: 'https://github.com/Armstrong104/vanilla-javascript-fall-2024',
   },
 ];
 
