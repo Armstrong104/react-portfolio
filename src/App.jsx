@@ -1,10 +1,12 @@
 import { useRef, useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { AboutSection } from './components/AboutSection';
-import { SkillSection } from './components/SkillSection';
-import { ProjectSection } from './components/ProjectSection';
-import { ContactSection } from './components/ContactSection';
+import {
+  Header,
+  Footer,
+  AboutSection,
+  SkillSection,
+  ProjectSection,
+  ContactSection,
+} from './components';
 
 function App() {
   const navLinksRef = useRef(null);
