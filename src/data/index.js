@@ -31,6 +31,8 @@ export const skills = [
     items: [
       { name: 'Laravel', image: 'assets/laravel.png' },
       { name: 'Asp.Net', image: 'assets/asp.png' },
+      {name: 'Android', image: 'assets/android.png'},
+      { name: 'Node JS', image: 'assets/nodejs.png' },
     ],
   },
   {
@@ -42,8 +44,12 @@ export const skills = [
     ],
   },
   {
-    category: 'DevOps Tools',
-    items: [{ name: 'Git', image: 'assets/git.png' }],
+    category: 'DevOps',
+    items: [
+      { name: 'Git', image: 'assets/git.png' },
+      { name: 'GitHub', image: 'assets/github.png' },
+      {name: 'CI/CD', image: 'assets/cicd.png'},
+    ],
   },
 ];
 
